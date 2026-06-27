@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics class 3</title>
+</head>
+<body>
+
+    <!-- ================================================= -->
+    <!-- 1. INTRODUCTION TO FORM -->
+    <!-- ================================================= -->
+
+    <!--
+    Form ka use user se data lene ke liye kiya jata hai.
+
+    Examples:
+    - Login Form
+    - Registration Form
+    - Contact Form
+    - Feedback Form
+
+    Form ke andar different input controls use hote hain
+    jese textbox, radio button, checkbox etc.
+
+    Syntax:
+
+    <form>
+        Form Elements
+    </form>
+    -->
+
+
+
+    <!-- ================================================= -->
+    <!-- 2. CREATING FIRST FORM -->
+    <!-- ================================================= -->
+
+    <!--
+    Ye hamara pehla simple form hai.
+
+    form tag form ko start karta hai.
+    form ke andar jo bhi controls honge wo form ka part honge.
+    -->
+
+    <h2>Student Form</h2>
+
+    <form>
+
+    </form>
+
+
+
+    <!-- ================================================= -->
+    <!-- 3. TEXTBOX -->
+    <!-- ================================================= -->
+
+    <!--
+    Textbox user se ek line ka text lene ke liye use hota hai.
+
+    type="text"
+    browser ko batata hai ke textbox banana hai.
+    -->
+
+    <label>Enter Your Name:</label>
+    <input type="text">
+
+    <br><br>
+
+
+
+    <!-- ================================================= -->
+    <!-- 4. SUBMIT BUTTON -->
+    <!-- ================================================= -->
+
+    <!--
+    Submit button form ka data submit karta hai.
+
+    Jab user is button par click karta hai
+    to form submit ho jata hai.
+    -->
+
+    <input type="submit" value="Submit">
+
+    <br><br>
+
+
+
+    <!-- ================================================= -->
+    <!-- 5. RESET BUTTON -->
+    <!-- ================================================= -->
+
+    <!--
+    Reset button form ke tamam fields ko clear kar deta hai.
+
+    Jo data user ne enter kiya ho
+    wo remove ho jata hai.
+    -->
+
+    <input type="reset" value="Clear Form">
+
+    <br><br>
+
+
+
+    <!-- ================================================= -->
+    <!-- 6. RADIO BUTTON -->
+    <!-- ================================================= -->
+
+    <!--
+    Radio button me user sirf EK option select kar sakta hai.
+
+    name same rakhna bohat zaroori hai.
+    Agar name same hoga to ek hi option select hoga.
+    -->
+
+    <p>Select Gender:</p>
+
+    <input type="radio" name="gender"> Male
+
+    <input type="radio" name="gender"> Female
+
+    <br><br>
+
+
+
+    <!-- ================================================= -->
+    <!-- 7. CHECKBOX -->
+    <!-- ================================================= -->
+
+    <!--
+    Checkbox me user multiple options select kar sakta hai.
+
+    Radio button me ek option select hota hai.
+    Checkbox me aik se zyada select ho sakte hain.
+    -->
+
+    <p>Select Skills:</p>
+
+    <input type="checkbox"> HTML
+
+    <input type="checkbox"> CSS
+
+    <input type="checkbox"> JavaScript
+
+    <br><br>
+
+
+
+    <!-- ================================================= -->
+    <!-- 8. TEXTAREA -->
+    <!-- ================================================= -->
+
+    <!--
+    Textarea multiple lines ka text likhne ke liye use hota hai.
+
+    Example:
+    Feedback
+    Address
+    Comments
+    -->
+
+    <p>Enter Your Address:</p>
+
+    <textarea rows="5" cols="30"></textarea>
+
+    <br><br>
+
+
+
+    <!-- ================================================= -->
+    <!-- 9. DROPDOWN LIST -->
+    <!-- ================================================= -->
+
+    <!--
+    Dropdown list select tag se banti hai.
+
+    select = dropdown box
+
+    option = dropdown ke items
+    -->
+
+    <p>Select Your City:</p>
+
+    <select>
+
+        <option>Karachi</option>
+
+        <option>Lahore</option>
+
+        <option>Islamabad</option>
+
+        <option>Peshawar</option>
+
+    </select>
+
+    <br><br>
+
+
+
+    <!-- ================================================= -->
+    <!-- COMPLETE FORM EXAMPLE -->
+    <!-- ================================================= -->
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        Name:
+        <input type="text">
+
+        <br><br>
+
+        Gender:
+
+        <input type="radio" name="gender"> Male
+
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        Skills:
+
+        <input type="checkbox"> HTML
+
+        <input type="checkbox"> CSS
+
+        <input type="checkbox"> JavaScript
+
+        <br><br>
+
+        City:
+
+        <select>
+
+            <option>Karachi</option>
+
+            <option>Lahore</option>
+
+            <option>Islamabad</option>
+
+        </select>
+
+        <br><br>
+
+        Address:
+
+        <br>
+
+        <textarea rows="4" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>

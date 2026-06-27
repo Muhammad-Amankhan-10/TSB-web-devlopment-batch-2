@@ -1,0 +1,27 @@
+/* MAIN FILE OF CSS */
+
+/* COLOR FOR HEADING 2 */
+
+h2{
+
+color:green;
+
+}
+ 
+/* COLOR FOR HEADING 1 */
+
+h1{
+color: violet;
+}
+
+/* SHOWING CLASS OF CSS  */
+
+.course {
+    color: purple;
+}
+
+/* SHOWING ID OF CSS  */
+
+#title{
+    color: aqua;
+}

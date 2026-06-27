@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics class 2</title>
+</head>
+<body>
+      <!-- BLOCK AND INLINE ELEMENTS -->
+
+    <!-- 
+    Block elements:
+    Ye puri line ki width lete hain aur next element new line se start hota hai.
+
+    Examples:
+    div, p, h1
+    -->
+
+    <div style="background: lightblue;">
+        Ye ek div hai (Block Element)
+    </div>
+
+
+    <p style="background: lightgreen;">
+        Ye ek paragraph hai (Block Element)
+    </p>
+
+
+
+    <!-- 
+    Inline elements:
+    Ye sirf utni jagah lete hain jitni zaroorat ho.
+    Ye same line me aa sakte hain.
+
+    Examples:
+    a, img, span
+    -->
+
+    <a href="https://google.com">
+        Google Open Karo
+    </a>
+
+    <a href="#">
+        Dusra Link
+    </a>
+
+
+
+    <!-- ANCHOR TAG (a) -->
+
+    <!--
+    <a> tag links banane ke liye use hota hai.
+
+    Attributes:
+    href = link ka address
+    target = link kahan open hoga
+    -->
+
+    <a href="https://youtube.com" target="_blank">
+        YouTube
+    </a>
+
+
+
+    <!-- IMAGE TAG -->
+
+    <!--
+    img tag image show karne ke liye hota hai.
+
+    Attributes:
+
+    src = image ka path
+    alt = image load na ho to text show karega
+    width = image ki width
+    height = image ki height
+    -->
+
+    <img 
+        src="cat.jpg"
+        alt="Cat Image"
+        width="200"
+        height="200"
+    >
+
+
+
+    <!-- HTML TAG ATTRIBUTES -->
+
+    <!--
+    Attributes tag ko extra information dete hain.
+
+    Example:
+
+    id = unique name
+    class = group name
+    style = CSS lagane ke liye
+    -->
+
+    <h1 
+        id="heading"
+        class="title"
+        style="color:red;"
+    >
+        Ye Heading Hai
+    </h1>
+
+
+    <p 
+        class="para"
+        style="font-size:20px;"
+    >
+        Ye Paragraph Hai
+    </p>
+     
+     <!-- HTML LIST TAGS -->
+
+     <h2>Unordered List</h2>
+     <ul>
+         <li>Item 1</li>
+         <li>Item 2</li>
+         <li>Item 3</li>
+     </ul>
+
+     <h2>Ordered List</h2>
+     <ol>
+         <li>First Item</li>
+         <li>Second Item</li>
+         <li>Third Item</li>
+     </ol>
+
+        <!-- NESTED LISTS -->
+
+  <ul>
+    <li>Fruits
+        <ul>
+            <li>Apple</li>
+            <li>Mango</li>
+            <li>Banana</li>
+        </ul>
+    </li>
+
+    <li>Vegetables
+        <ul>
+            <li>Potato</li>
+            <li>Onion</li>
+            <li>Tomato</li>
+        </ul>
+    </li>
+  </ul>
+      
+</body>
+</html>
