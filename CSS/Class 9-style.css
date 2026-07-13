@@ -1,0 +1,26 @@
+/* UNIVERSAL SELECTOR  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* DECENDANT SELECTOR  */
+div p{
+    color: blue;
+}
+
+
+/* GROUP SELECTOR  */
+
+h1,h3{
+    color: orangered;
+}
+
+/* CHILD SELECTOR  */
+
+div>p{
+    color: green;
+}
