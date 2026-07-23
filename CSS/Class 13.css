@@ -1,0 +1,19 @@
+         /* BORDER RADIUS  */
+
+.box{
+   height: 200px;
+   width: 200px;
+   background-color: rgb(77, 7, 77);
+   border: 1px solid orangered;
+   border-radius: 50%;
+  
+}
+.box:hover{
+     box-shadow: 3px 3px 7px 10px grey;
+}
+
+#box{
+   padding: 14px;
+    border: 20px solid;
+    border-image: url(border.png) 30 round;
+}
