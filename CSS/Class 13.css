@@ -1,19 +1,53 @@
-         /* BORDER RADIUS  */
+/* BORDER RADIUS  */
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(77, 7, 77);
+  border: 1px solid orangered;
+  border-radius: 50%;
+}
+.box:hover {
+  box-shadow: 3px 3px 7px 10px grey;
+}
+
+#box {
+  padding: 14px;
+  border: 20px solid;
+  border-image: url(border.png) 30 round;
+}
+
+/* BORDER IMAGE */
+
+.box {
+  border: 20px solid;
+  border-image: url(border.png) 30 round;
+}
+
+/* BACKGROUND SIZE  */
+
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+/* Explain : Image puri webpage ko cover karleti ha  */
 
 .box{
-   height: 200px;
-   width: 200px;
-   background-color: rgb(77, 7, 77);
-   border: 1px solid orangered;
-   border-radius: 50%;
-  
-}
-.box:hover{
-     box-shadow: 3px 3px 7px 10px grey;
+   background-size:contain;
 }
 
-#box{
-   padding: 14px;
-    border: 20px solid;
-    border-image: url(border.png) 30 round;
+/* Image poori dikhegi
+Lekin khaali jagah bach sakti hai. */
+
+/* BACKGROUND ORIGIN */
+
+.box {
+  background-origin: content-box;
+  background-origin: padding-box;
+  background-origin: border-box;
 }
+
+/* border-box → Border se start
+padding-box → Padding se start
+content-box → Sirf content ke area se
