@@ -1,0 +1,26 @@
+body {
+    background: #2A7B9B;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 44%, rgba(237, 221, 83, 1) 92%);
+}
+
+.grad {
+    height: 100px;
+    width: 150px;
+    background-image: linear-gradient(red, yellow, green);
+}
+
+.gradi {
+    margin-top: 5px;
+    height: 100px;
+    width: 150px;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+.conic {
+    margin-top: 5px;
+    height: 100px;
+    width: 150px;
+    background-image: linear-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+}
