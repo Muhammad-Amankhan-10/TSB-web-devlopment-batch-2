@@ -91,7 +91,7 @@
         global $name; // global var ko access k liye global keyword use hota hai
         echo $name;
     }
-  //  global_variable(); // calling the function
+   global_variable(); // calling the function
 
     ?>
 
