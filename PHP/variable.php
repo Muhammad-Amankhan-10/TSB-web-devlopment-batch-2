@@ -93,6 +93,29 @@
     }
    global_variable(); // calling the function
 
+   
+      echo "<br>";
+      echo "<br>";
+
+   // STATIC VARIABLE
+
+   function counter(){
+        static $counter = 0;
+
+        $counter++;
+        echo $counter;
+    }
+
+    counter();
+    counter();
+    counter();
+
+
+     
+        
+    
+
+
     ?>
 
 
