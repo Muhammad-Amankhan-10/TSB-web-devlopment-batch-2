@@ -41,7 +41,7 @@
     $is_truelogged_in = true;  // The user is logged in
     $has_discount = false; // The user does not get a discount
     // Array 
-    $array = array("kHI", "PESH");  // collection of data set 
+    $array = array('khi', 'pesh');  // collection of data set 
     print_r($array);
     echo "<br>";
     // Null 
