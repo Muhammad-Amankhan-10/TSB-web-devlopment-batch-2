@@ -6,7 +6,8 @@
 
     session_destroy();
 
-    header("location: login.php");
+    header("location: login.php"); //yahan browser user ko dubara login me 
+                                    // bhej deta ha 
 
     echo"logout succesfully";
 
