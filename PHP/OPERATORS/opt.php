@@ -36,4 +36,7 @@ $day = "Sunday";
 if ($day == "Sunday" || $day == "MONDAY") {
     echo "CHAL SCHOOOL OYEE";
 }
+
+
+
 ?>
