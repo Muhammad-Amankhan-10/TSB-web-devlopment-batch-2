@@ -1,5 +1,14 @@
 <?php
 
+//if statement
+$car = 14;
+
+if ($car == 14) {
+  echo "Have a good day!";
+}
+
+echo"<br>";
+
 // if else 
 $age = 15;
 
@@ -10,6 +19,7 @@ if ($age >= 18) {
 }
 
 echo"<br>";
+
 // if , else , elseif 
 
 $marks = 75;
