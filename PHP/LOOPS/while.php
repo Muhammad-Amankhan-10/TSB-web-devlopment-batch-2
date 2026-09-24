@@ -48,3 +48,15 @@ while ($i < 6) {
   echo "<br>";
   $i++;
 } 
+
+
+// CONTINUE 
+
+while ($i < 6) {
+  $i++;
+  if ($i == 3) continue;  // 3 SKIP HOKR BAKI NUM AJAYEN GY 
+  echo $i;
+  echo "<br>";
+
+} 
+?>
