@@ -10,7 +10,7 @@ while ($number >= -10) {   // destination
 
 // printing even number
 
-$even = 1;
+$even = 2;
 while ($even <= 30) {
     echo  $even;
     echo "<br>";

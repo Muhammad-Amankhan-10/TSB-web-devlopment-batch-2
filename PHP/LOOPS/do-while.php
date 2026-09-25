@@ -36,7 +36,7 @@ echo "<br>";
 
 $var = 10;
 do {
-    //  echo "heelo ";
+    // echo "heelo ";
     echo $var;
     $var++;
     echo "<br>";
@@ -53,4 +53,4 @@ do {
     $c++;          // THis is the main thing 
 } while ($c <= 5); */
 
-
+?>

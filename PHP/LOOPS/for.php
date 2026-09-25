@@ -12,7 +12,7 @@ for ($abc = 1; $abc <= 5; $abc++) {
     echo "<br>";
 }
 
-// inverse 
+// backword  
 echo "<br>";
 
 
@@ -49,8 +49,19 @@ for ($x = 0; $x <= 10; $x++) {
     echo "<br>";
     echo "The number is: $x <br>";
 }
-    echo "<br>";
+echo "<br>";
+/* Loop ke bahar kya hua: Jab aap loop se bahar aaye,
+                     toh $x ke andar aakhri value 3
+                     hi store thi. Isliye jab aapne loop ke bahar 
+                     teen dafa echo "The number is: $x <br>"; 
+                     likha, toh usne teenon baar 3 print kiya.*/
+echo "The number is: $x <br>";
+echo "The number is: $x <br>";
+echo "The number is: $x <br>";
 
-echo "The number is: $x <br>";
-echo "The number is: $x <br>";
-echo "The number is: $x <br>";
+$student = ["aman", "ayan", "safi"];
+
+for ($i = 0; $i < 3; $i++) {
+    echo $student[$i];
+    echo "<br>";
+}
