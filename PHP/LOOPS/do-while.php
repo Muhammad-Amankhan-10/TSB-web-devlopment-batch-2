@@ -46,11 +46,11 @@ do {
 
 // wrong code for ensure about INFINITE LOOP 
 
-/* $c = 1;
+$c = 1;
 
 do {
     echo $c;
-    $c++;          // THis is the main thing 
-} while ($c <= 5); */
+              // THis is the main thing 
+} while ($c <= 5); 
 
 ?>

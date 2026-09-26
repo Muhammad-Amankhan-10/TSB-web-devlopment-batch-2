@@ -35,6 +35,8 @@ foreach ($numbers as $number) {
 // foreach   values one by one uthata ha array se 
 // if       check karta ha k value even ha ya nahi 
 
+// ASSOCIATIVE ARRAY 
+
 $student =  [
     "name" => "Aman",
     "class" => "8",
@@ -44,3 +46,4 @@ foreach ($student as $key => $value) {
     echo $key . ":" . $value;
     echo "<br>";
 }
+?>
