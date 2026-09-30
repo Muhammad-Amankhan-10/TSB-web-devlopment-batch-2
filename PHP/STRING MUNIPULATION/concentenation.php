@@ -31,4 +31,9 @@ echo strlen($name);
 echo "<br>";
 
 $name = "ali";
+
 echo ucfirst($name);
+
+$name = "ali";
+
+echo ucwords($name);
