@@ -1,6 +1,6 @@
 <?php 
 
-include "head.php";
+include "head.php";  // wahan ka code yahan le ao 
 
 
 ?>

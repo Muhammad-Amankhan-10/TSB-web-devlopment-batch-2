@@ -33,6 +33,7 @@ echo "<br>";
 $name = "ali";
 
 echo ucfirst($name);
+echo "<br>";
 
 $name = "ali";
 
